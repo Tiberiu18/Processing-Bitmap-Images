@@ -1,3 +1,5 @@
+#ifndef BMP_H
+#define BMP_H
 /* Tells the compiler not to add padding for these structs. This may
    be useful when reading/writing to binary files.
    http://stackoverflow.com/questions/3318410/pragma-pack-effect
@@ -48,3 +50,4 @@ typedef struct
 }Rectangle;
 #pragma pack()
 
+#endif // BMP_H
